@@ -1,5 +1,12 @@
-<English is following>
-本記事は、サプライチェーン業務改革を中心に、約20年に渡る私のコンサル経験をもとに、特定の顧客の現場から離れた汎用化したモデルとして、
+<version>
+python                    3.9.7
+bokeh                     2.4.1
+plotly                    5.14.1
+pandas                    1.3.4
+networkx                  2.6.3
+
+<概要>
+本内容は、サプライチェーン業務改革を中心に、約20年に渡る私のコンサル経験をもとに、特定の顧客の現場から離れた汎用化したモデルとして、
 グローバル・サプライチェーンの計画モデルをpythonで実装することで、コンセプト検証( PoC:Proof of Concept)を行っています。
 ご紹介するGlobal Supply Chain Planner(Global Weekly PSI Planner)の機能概要については、note記事の以下のURLを参照ください。
 https://note.com/osuosu1123/n/n6e97b29049ca
