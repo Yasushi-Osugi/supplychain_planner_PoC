@@ -1,3 +1,8 @@
+<謝辞>
+ここに公開してるpython codeは、生成AI、copilot(=chatGPT)とgeminiとの会話で生成されたpythonコードを多く含んでいます。
+私のようなpython初心者にとっては、開発の生産性が10倍～100倍くらい上がっており、copilot(=chatGPT)とgeminiを開発したopenAIとgoogleに感謝します。
+掲載しているpython codeは非常に汚いコードで、本来、きれいにライブラリ化してから公開するべき内容ですが、ある程度まとまった追加機能について、評価、フィードバックをいただきたく、コンセプト検証版(PoC:Proof of Consept)として公開させていただきます。
+
 <version>
 python                    3.9.7
 bokeh                     2.4.1
