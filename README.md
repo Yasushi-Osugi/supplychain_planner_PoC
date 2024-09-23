@@ -14,8 +14,11 @@ networkx                  2.6.3
 本内容は、サプライチェーン業務改革を中心に、約20年に渡る私のコンサル経験をもとに、特定の顧客の現場から離れた汎用化したモデルとして、
 グローバル・サプライチェーンの計画モデルをpythonで実装することで、コンセプト検証( PoC:Proof of Concept)を行っています。
 ご紹介するGlobal Supply Chain Planner(Global Weekly PSI Planner)の機能概要については、note記事の以下のURLを参照ください。
+
 https://note.com/osuosu1123/n/n6e97b29049ca
-  
+
+https://note.com/osuosu1123/n/nf7c4fd03b3c9
+
 note記事には、過去にGlobal Weekly PSI Plannerに関連する記事を何本か公開していますが、今回の変化点の大きな部分は、高速処理を行うために以下のような実装を行っています。
 1) Forward PlanningとBackward Planingの部分はサプライチェーン・ツリー構造上の各node事業拠点をrecursive callする。
 2) データ可視化のグラフィック・ライブラリは、いままでplotlyを使用していますが、webGL対応など高速描画の観点からbokehも使っています。
